@@ -1,0 +1,8 @@
+ls = lista arquivos e pastas de onde vc está (diretório)
+- ls -a = lista arquivos ocultos
+cd = muda de local de pasta (diretório)
+- cd .. = volta 1
+- cd . = volta raiz
+pwd = caminho completo de onde estou (diretório)
+
+mkdir = cria diretório/pastas
