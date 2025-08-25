@@ -55,3 +55,11 @@ Enter: Avançar para a próxima linha.
 h: Mostrar a ajuda do less com todos os comandos disponíveis.
 /: (barra): Procurar por um texto específico dentro do log.
 
+git diff <nome do arquivo> = mostra o que foi adicionado ou alterado em um arquivo desde de o último checkpoint.
+
+git reset = tira o arquivo(s) do stage para commit.
+
+git checkout -b <nome da branch> = cria uma branch e muda da main para essa criada.
+
+git branch = lista todas as suas branch no diretorio.
+
