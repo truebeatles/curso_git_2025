@@ -29,7 +29,9 @@ arquivos em vermelho sinalizam que o arquivo não está pronto para o commit... 
 
 git add <file> = adiciona arquivos que irão para a fila do commit.
 o arquivo vai ficar verde... pronto para o commit. Cria checkpoint para irem ao commit. Pode ser mais 1 arquivo junto.
-git add . = sobe todos os arquivos disponíveis para a fila do commit.
+git add . = sobe todos os arquivos disponíveis na pasta atual para a fila do commit.
+git add * = sobe todos os arquivos existentes na pasta.
+git add comandos* = sobe pro save do git todos os arquivos que comecem com a palavra 'comandos'.
 
 git restore <file> = to discard changes in working directory.
 
@@ -41,4 +43,15 @@ git config --global user.name = valida o nome cadastrado para esse repositório.
 
 git log = lista os commits realizados em ordem descrecente. 'main' significa último commit realizado.
 
+
+Para sair do git log, que utiliza o visualizador less, basta pressionar a tecla q. Se estiver usando um terminal que simula o Vim, também poderá usar outros comandos para sair, como **:**q (para sair sem salvar) ou :q!. 
+Passos para sair do git log:
+Mantenha o terminal aberto: onde o comando git log foi executado. 
+Pressione a tecla "q": (minúscula ou maiúscula). 
+A tela do git log será fechada, retornando ao prompt do seu terminal, e você poderá executar outros comandos Git. 
+Outras teclas úteis durante o git log: 
+Barra de espaço: ou Page Down: Avançar uma página para ver mais commits.
+Enter: Avançar para a próxima linha.
+h: Mostrar a ajuda do less com todos os comandos disponíveis.
+/: (barra): Procurar por um texto específico dentro do log.
 
