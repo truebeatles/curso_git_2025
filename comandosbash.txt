@@ -1,8 +1,29 @@
 ls = lista arquivos e pastas de onde vc está (diretório)
 - ls -a = lista arquivos ocultos
+o "." é o que torna os arquivos ocultos.
+por exemplo: ./ ou ../ ou .git/
+
 cd = muda de local de pasta (diretório)
+tab = preenche o que falta do nome do diretorio
 - cd .. = volta 1
 - cd . = volta raiz
-pwd = caminho completo de onde estou (diretório)
+pwd = (print work director) caminho completo/absoluto de onde estou (diretório)
+clear ou crtl+l = limpa a tela do terminal
 
 mkdir = cria diretório/pastas
+
+cat <file> = mostra o que tem dentro do arquivo.
+
+*ATENÇÃO - COMANDO QUE PODE LEVAR AO ERRO HUMANO. O comando para deletar um arquivo no Linux é rm. Para deletar um arquivo, use o comando rm seguido do nome do arquivo, por exemplo: rm nome_do_arquivo.txt. Se você precisar deletar diretórios, use a opção -r para apagar recursivamente (deletando tudo dentro do diretório) e a opção -f para forçar a exclusão sem confirmação, por exemplo: rm -rf nome_do_diretorio.
+
+git init . = transforma a pasta em um repositório git.
+
+git status = mostra como a pasta git está sendo usada... status dos arquivos.
+arquivos em vermelho sinalizam que o arquivo não está pronto para o commit... não está na fila do commit para ser versionado. Não entra no commit se vc realizar o commit. PARA PREPARAR PARA O COMMIT, vide próximo comando.
+
+git add <file> = adiciona arquivos que irão para a fila do commit.
+o arquivo vai ficar verde... pronto para o commit.
+
+git restore <file> = to discard changes in working directory.
+
+git commit -m <"nome do checkpoint"> = cria um checkpoint para subir no git. Versionamento.
