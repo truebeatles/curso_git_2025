@@ -1,4 +1,4 @@
-\# Curso Theomewhy Git \& GitHub 2025
+# Curso Theomewhy Git \& GitHub 2025
 
 
 
