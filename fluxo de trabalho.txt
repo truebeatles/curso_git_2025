@@ -1,0 +1,7 @@
+1 - criar repositorio
+2 - start git no diretorio criado com 'git init .'
+3 - crie e edita arquivos
+4 - 'git add .' = cria checkpoints para salvar na fila do commit
+5 - 'git ccommit -m <"nome do salvamento">' = salva o commit no git
+6 - 'git status' para ver o resultado.
+7 - 'git diff <nome do arquivo> = mostra o que foi adicionado ou alterado em um arquivo desde de o último checkpoint.
