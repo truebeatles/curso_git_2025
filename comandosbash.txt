@@ -29,15 +29,16 @@ arquivos em vermelho sinalizam que o arquivo não está pronto para o commit... 
 
 git add <file> = adiciona arquivos que irão para a fila do commit.
 o arquivo vai ficar verde... pronto para o commit. Cria checkpoint para irem ao commit. Pode ser mais 1 arquivo junto.
+git add . = sobe todos os arquivos disponíveis para a fila do commit.
 
 git restore <file> = to discard changes in working directory.
 
-git commit -m <"nome do checkpoint"> = cria um checkpoint para subir no git. Versionamento.
+git commit -m <"nome do checkpoint"> = cria um save para subir no git. Versionamento.
 
 * pode acontecer de vc receber a mensagem "Author identity unknown". Ele vai te passar as instruções para vc apontar que é o owner desse commit.
 git config --global user.email = valida o email cadastrado para esse repositório.
 git config --global user.name = valida o nome cadastrado para esse repositório.
 
-
+git log = lista os commits realizados em ordem descrecente. 'main' significa último commit realizado.
 
 
