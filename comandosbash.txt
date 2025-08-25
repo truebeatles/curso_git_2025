@@ -1,3 +1,5 @@
+Comandos bash (bourne against shell). Tipo de comando universal para computadores.
+
 ls = lista arquivos e pastas de onde vc está (diretório)
 - ls -a = lista arquivos ocultos
 o "." é o que torna os arquivos ocultos.
@@ -26,4 +28,12 @@ o arquivo vai ficar verde... pronto para o commit.
 
 git restore <file> = to discard changes in working directory.
 
-git commit -m <"nome do checkpoint"> = cria um checkpoint para subir no git. Versionamento. Comando bash (bourne against shell).
+git commit -m <"nome do checkpoint"> = cria um checkpoint para subir no git. Versionamento.
+
+* pode acontecer de vc receber a mensagem "Author identity unknown". Ele vai te passar as instruções para vc apontar que é o owner desse commit.
+git config --global user.email = valida o email cadastrado para esse repositório.
+git config --global user.name = valida o nome cadastrado para esse repositório.
+
+
+
+
