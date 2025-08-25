@@ -4,6 +4,8 @@ ls = lista arquivos e pastas de onde vc está (diretório)
 - ls -a = lista arquivos ocultos
 o "." é o que torna os arquivos ocultos.
 por exemplo: ./ ou ../ ou .git/
+* em geral não se mexe em arquivos ou pastas ocultos por segurança.
+** a pasta .git/ é onde fica todos os commits, configurações, snapshots, etc do git. Não se mexe nela para evitar corromper arquivos e pastas que prejudicarão o funcionamento do git.
 
 cd = muda de local de pasta (diretório)
 tab = preenche o que falta do nome do diretorio
